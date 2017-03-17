@@ -1,0 +1,21 @@
+$primary-font-color: #ffffff;
+
+@mixin main-headings{
+  font-size: 50px;
+  font-weight: bold;
+  color: $primary-font-color;
+  text-align: center;
+}
+@mixin description{
+  font-size: 24px;
+  color: $primary-font-color;
+  text-align: center;
+  font-weight: bold;
+}
+
+.section-one-tropic{
+  @include main-headings;
+}
+.section-one-dis{
+  @include description;
+}

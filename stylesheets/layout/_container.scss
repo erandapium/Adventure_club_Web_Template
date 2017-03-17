@@ -1,0 +1,31 @@
+@mixin holder {
+
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+
+}
+@mixin middle{
+  width: 90%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.holder-one{
+  @include holder;
+  background-image: url(../images/wall-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.part-two-of-section{
+  @include middle;
+}

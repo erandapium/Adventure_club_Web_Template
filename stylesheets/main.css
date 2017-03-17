@@ -1,5 +1,72 @@
+.learn-more-btn {
+  width: 150px;
+  height: 40px;
+  border: 3px solid #ffffff;
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px; }
+
+.section-one-tropic {
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center; }
+
+.section-one-dis {
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold; }
+
+.logo {
+  width: 250px; }
+
 body {
   margin: 0px;
   padding: 0px; }
+
+.holder-one {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/wall-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.part-two-of-section {
+  width: 90%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto; }
+
+.page-header {
+  width: 90%;
+  height: 70px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto; }
+
+.nav-menu {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  transform: translateY(50%); }
+  .nav-menu li {
+    list-style-type: none;
+    width: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center; }
+  .nav-menu a {
+    text-decoration: none;
+    color: #ffffff; }
 
 /*# sourceMappingURL=main.css.map */
