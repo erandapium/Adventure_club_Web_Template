@@ -4,7 +4,23 @@
   border: 3px solid #ffffff;
   font-size: 20px;
   margin-bottom: 30px;
-  margin-top: 30px; }
+  margin-top: 30px;
+  background-color: transparent;
+  color: #ffffff;
+  font-weight: bold; }
+
+.section-four-btn {
+  width: 150px;
+  height: 40px;
+  border: 3px solid #ffffff;
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  background-color: transparent;
+  color: #ffffff;
+  font-weight: bold;
+  border: 3px solid #000000;
+  color: #000000; }
 
 .section-one-tropic {
   font-size: 50px;
@@ -18,8 +34,61 @@
   text-align: center;
   font-weight: bold; }
 
+.section-two-header {
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center; }
+
+.section-three-header {
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  color: #446CB3; }
+
+.section-four-header {
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  color: #446CB3; }
+
+.section-four-sub-headings {
+  font-size: 25px;
+  color: #446CB3;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 10px; }
+
+.section-four-des {
+  font-size: 20px; }
+
+.legal {
+  transform: translateY(130%); }
+
 .logo {
-  width: 250px; }
+  width: 330px;
+  height: 50px;
+  transform: translateY(35%); }
+
+.section-two-images {
+  width: 100px;
+  height: 100px; }
+
+.section-three-img {
+  width: 90%;
+  height: 200px;
+  padding: 10px;
+  box-shadow: 3px 3px 10px #000000; }
+
+.section-four-images {
+  margin-top: 20px;
+  width: 90%; }
+
+.logo-footer {
+  width: 300px;
+  transform: translateY(40%); }
 
 body {
   margin: 0px;
@@ -42,7 +111,121 @@ body {
   flex-direction: column;
   align-items: center;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  margin-top: 50px; }
+
+.holder-two {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #446cb3; }
+
+.section-two-content-holder {
+  width: 90%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px; }
+
+.primary, .secondary, .third {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box; }
+
+.holder-three {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column; }
+
+.section-three-content-holder {
+  width: 90%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 10px; }
+
+.primary-img-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+  flex-direction: column; }
+
+.secondary-img-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+  flex-direction: column; }
+
+.holder-four {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column; }
+
+.section-four-content-holder {
+  width: 90%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px; }
+
+.section-four-primary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+  flex-direction: column;
+  color: #000000;
+  margin: 20px;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 10px #000000; }
+
+.footer {
+  width: 100%;
+  height: 80px;
+  margin-top: 20px;
+  background-color: #446cb3; }
+
+.footer-content-holder {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  color: #ffffff; }
 
 .page-header {
   width: 90%;

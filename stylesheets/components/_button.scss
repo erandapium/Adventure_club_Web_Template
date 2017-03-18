@@ -1,4 +1,5 @@
 $primary-font-color: #ffffff;
+$black: #000000;
 
 @mixin button {
   width: 150px;
@@ -7,7 +8,15 @@ $primary-font-color: #ffffff;
   font-size: 20px;
   margin-bottom: 30px;
   margin-top: 30px;
+  background-color: transparent;
+  color: $primary-font-color;
+  font-weight: bold;
 }
 .learn-more-btn{
   @include button;
+}
+.section-four-btn{
+  @include button;
+  border: 3px solid $black;
+  color: $black;
 }

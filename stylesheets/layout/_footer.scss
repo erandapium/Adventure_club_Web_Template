@@ -1,0 +1,20 @@
+$main-color: #446cb3;
+$foote-font-color: #ffffff;
+
+.footer{
+  width: 100%;
+  height: 80px;
+  margin-top: 20px;
+  background-color: $main-color;
+}
+.footer-content-holder{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  color: $foote-font-color;
+}
