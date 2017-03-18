@@ -1,5 +1,6 @@
 $primary-font-color: #ffffff;
 $black: #000000;
+$hover: #446CB3;
 
 @mixin button {
   width: 150px;
@@ -11,12 +12,25 @@ $black: #000000;
   background-color: transparent;
   color: $primary-font-color;
   font-weight: bold;
+  transition: 500ms;
 }
 .learn-more-btn{
   @include button;
+  :hover{
+    background-color: $primary-font-color;
+    color: $black;
+    cursor: pointer;
+    border: 3px solid $black;
+  }
 }
 .section-four-btn{
   @include button;
   border: 3px solid $black;
   color: $black;
+  :hover{
+    background-color: $hover;
+    color: $primary-font-color;
+    border: 3px solid $primary-font-color;
+
+  }
 }

@@ -1,4 +1,5 @@
 $black: #000000;
+$white: #ffffff;
 
 .logo{
   width: 330px;
@@ -13,8 +14,10 @@ $black: #000000;
 .section-three-img{
   width:90%;
   height: 200px;
-  padding: 10px;
+  margin: 20px;
   box-shadow: 3px 3px 10px $black;
+  border: 10px solid $white;
+
 
 }
 .section-four-images{

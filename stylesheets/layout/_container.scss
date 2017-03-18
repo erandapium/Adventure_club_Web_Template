@@ -27,6 +27,11 @@ $secon-font-color:#000000;
   color: $font-color;
   text-align: center;
 }
+@mixin bg-images {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 body{
   margin: 0px;
   padding: 0px;
@@ -34,9 +39,7 @@ body{
 .holder-one{
   @include holder;
   background-image: url(../images/wall-img.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  @include bg-images;
 }
 .part-two-of-section{
   @include middle;
@@ -58,6 +61,8 @@ body{
 }
 .holder-three{
   @include holder;
+  background-image: url(../images/Kithulgala-4-700x450.png);
+  @include bg-images;
 }
 .section-three-content-holder{
   @include middle;
@@ -76,6 +81,8 @@ body{
 }
 .holder-four{
   @include holder;
+  background-image: url(../images/Kithulgala-4-700x450.png);
+  @include bg-images;
 }
 .section-four-content-holder{
   @include middle;
@@ -90,4 +97,5 @@ body{
   margin: 20px;
   box-sizing: border-box;
   box-shadow: 3px 3px 10px $secon-font-color;
+  background-color: $font-color;
 }
