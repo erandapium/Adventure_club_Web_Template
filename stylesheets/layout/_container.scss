@@ -38,10 +38,10 @@ body{
 }
 .holder-one{
   @include holder;
-  background-image: url(../images/wom1.jpg);
+  background-image: url(../images/wall.jpg);
   @include bg-images;
   background-position: center;
-  background-color: rgb(122, 176, 75);
+  background-color: rgb(236, 194, 44);
   background-blend-mode: multiply;
 }
 .part-two-of-section{

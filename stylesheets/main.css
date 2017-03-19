@@ -116,12 +116,12 @@ body {
   height: auto;
   display: flex;
   flex-direction: column;
-  background-image: url(../images/wom1.jpg);
+  background-image: url(../images/wall.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
   background-position: center;
-  background-color: #7ab04b;
+  background-color: #ecc22c;
   background-blend-mode: multiply; }
 
 .part-two-of-section {
