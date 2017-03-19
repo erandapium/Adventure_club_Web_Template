@@ -29,7 +29,7 @@ $secon-font-color:#000000;
 }
 @mixin bg-images {
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
 }
 body{
@@ -38,8 +38,11 @@ body{
 }
 .holder-one{
   @include holder;
-  background-image: url(../images/wall-img.jpg);
+  background-image: url(../images/wom1.jpg);
   @include bg-images;
+  background-position: center;
+  background-color: rgb(122, 176, 75);
+  background-blend-mode: multiply;
 }
 .part-two-of-section{
   @include middle;
@@ -61,7 +64,7 @@ body{
 }
 .holder-three{
   @include holder;
-  background-image: url(../images/Kithulgala-4-700x450.png);
+  background-image: url(../images/DSC00270.png);
   @include bg-images;
 }
 .section-three-content-holder{
@@ -81,7 +84,7 @@ body{
 }
 .holder-four{
   @include holder;
-  background-image: url(../images/Kithulgala-4-700x450.png);
+  background-image: url(../images/DSC00270.png);
   @include bg-images;
 }
 .section-four-content-holder{
@@ -98,4 +101,25 @@ body{
   box-sizing: border-box;
   box-shadow: 3px 3px 10px $secon-font-color;
   background-color: $font-color;
+}
+.sliders{
+  position: relative;
+  z-index: -10;
+  top: -249px;
+  left: 3px;
+  height: 200px;
+  background-color: red;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.sub{
+  height: 300px;
+  margin: 0px;
+
+
+}
+.menu-icon{
+  display: none;
 }

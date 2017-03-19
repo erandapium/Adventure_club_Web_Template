@@ -9,7 +9,7 @@
   color: #ffffff;
   font-weight: bold;
   transition: 500ms; }
-  .learn-more-btn :hover {
+  .learn-more-btn:hover {
     background-color: #ffffff;
     color: #000000;
     cursor: pointer;
@@ -28,7 +28,7 @@
   transition: 500ms;
   border: 3px solid #000000;
   color: #000000; }
-  .section-four-btn :hover {
+  .section-four-btn:hover {
     background-color: #446CB3;
     color: #ffffff;
     border: 3px solid #ffffff; }
@@ -37,7 +37,8 @@
   font-size: 50px;
   font-weight: bold;
   color: #ffffff;
-  text-align: center; }
+  text-align: center;
+  text-transform: uppercase; }
 
 .section-one-dis {
   font-size: 24px;
@@ -49,13 +50,15 @@
   font-size: 50px;
   font-weight: bold;
   color: #ffffff;
-  text-align: center; }
+  text-align: center;
+  text-transform: uppercase; }
 
 .section-three-header {
   font-size: 50px;
   font-weight: bold;
   color: #ffffff;
   text-align: center;
+  text-transform: uppercase;
   color: #446CB3; }
 
 .section-four-header {
@@ -63,6 +66,7 @@
   font-weight: bold;
   color: #ffffff;
   text-align: center;
+  text-transform: uppercase;
   color: #446CB3; }
 
 .section-four-sub-headings {
@@ -111,10 +115,13 @@ body {
   height: auto;
   display: flex;
   flex-direction: column;
-  background-image: url(../images/wall-img.jpg);
+  background-image: url(../images/wom1.jpg);
   background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
   background-position: center;
-  background-size: cover; }
+  background-color: #7ab04b;
+  background-blend-mode: multiply; }
 
 .part-two-of-section {
   width: 90%;
@@ -160,9 +167,9 @@ body {
   height: auto;
   display: flex;
   flex-direction: column;
-  background-image: url(../images/Kithulgala-4-700x450.png);
+  background-image: url(../images/DSC00270.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   background-size: cover; }
 
 .section-three-content-holder {
@@ -200,9 +207,9 @@ body {
   height: auto;
   display: flex;
   flex-direction: column;
-  background-image: url(../images/Kithulgala-4-700x450.png);
+  background-image: url(../images/DSC00270.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   background-size: cover; }
 
 .section-four-content-holder {
@@ -230,6 +237,24 @@ body {
   box-sizing: border-box;
   box-shadow: 3px 3px 10px #000000;
   background-color: #ffffff; }
+
+.sliders {
+  position: relative;
+  z-index: -10;
+  top: -249px;
+  left: 3px;
+  height: 200px;
+  background-color: red;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.sub {
+  height: 300px;
+  margin: 0px; }
+
+.menu-icon {
+  display: none; }
 
 .footer {
   width: 100%;
@@ -271,5 +296,91 @@ body {
   .nav-menu a {
     text-decoration: none;
     color: #ffffff; }
+
+@media (max-width: 1150px) {
+  .page-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+  .nav-menu {
+    margin-top: 30px; } }
+@media (max-width: 900px) {
+  .section-two-content-holder {
+    display: flex;
+    flex-direction: column; } }
+@media (max-width: 1122px) {
+  .section-four-content-holder {
+    display: flex;
+    flex-direction: column; }
+
+  .section-four-primary {
+    background-color: transparent; }
+
+  .section-four-images {
+    width: 30%; }
+
+  .footer {
+    height: auto; }
+
+  .footer-content-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+  .legal, .logo-footer {
+    transform: translateY(0); }
+
+  .logo-footer {
+    width: 200px;
+    height: 40px; } }
+@media (max-width: 740px) {
+  .section-one-tropic, .section-two-header, .section-three-header, .section-four-header {
+    font-size: 33px; }
+
+  .page-header {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch; }
+
+  .logo {
+    width: 200px;
+    height: 40px; }
+
+  .nav-menu {
+    display: none; }
+
+  .menu-icon {
+    display: block;
+    width: 8%; }
+
+  .logo-footer {
+    width: 100px;
+    height: 20px; }
+
+  .legal {
+    font-size: 14px;
+    text-align: center; }
+
+  .section-four-images {
+    width: 50%; } }
+@media (max-width: 500px) {
+  .page-header {
+    align-items: stretch; }
+
+  .logo {
+    position: relative;
+    top: 8px;
+    width: 150px;
+    height: 30px; }
+
+  .menu-icon {
+    width: 10%; }
+
+  .section-four-images {
+    width: 80%; } }
+@media (max-width: 400px) {
+  .menu-icon {
+    width: 10%; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -16,7 +16,7 @@ $hover: #446CB3;
 }
 .learn-more-btn{
   @include button;
-  :hover{
+  &:hover{
     background-color: $primary-font-color;
     color: $black;
     cursor: pointer;
@@ -27,7 +27,7 @@ $hover: #446CB3;
   @include button;
   border: 3px solid $black;
   color: $black;
-  :hover{
+  &:hover{
     background-color: $hover;
     color: $primary-font-color;
     border: 3px solid $primary-font-color;
