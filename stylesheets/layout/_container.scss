@@ -6,14 +6,14 @@ $secon-font-color:#000000;
 
   width: 100%;
   height: auto;
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
 
 }
 @mixin middle{
   width: 90%;
   background-color: transparent;
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   align-items: center;
   margin-left: auto;
@@ -21,7 +21,7 @@ $secon-font-color:#000000;
   margin-top: 50px;
 }
 @mixin column {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   align-items: center;
   color: $font-color;

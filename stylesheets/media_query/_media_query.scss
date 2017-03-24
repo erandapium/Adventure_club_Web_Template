@@ -9,12 +9,10 @@
     height: 40px;
   }
   .nav-menu{
-    display: none;
-  }
-  .menu-icon{
-    display: block;
-    width: 4%;
-    margin-right: 20px;
+    li{
+      font-size: 18px;
+      width: 80px;
+    }
   }
 }
 @media (max-width: 900px) {
@@ -51,14 +49,22 @@
     height: 40px;
   }
 }
-@media (max-width: 740px) {
+@media (max-width: 870px) {
   .section-one-tropic, .section-two-header, .section-three-header, .section-four-header{
     font-size: 33px;
   }
+  .nav-menu{
+    display: none;
+  }
+  #myNav{
+    display: block;
+  }
+
   .menu-icon{
     display: block;
     width: 5%;
     margin-right: 20px;
+    order: 3;
   }
   .logo-footer{
     width: 100px;
@@ -73,10 +79,12 @@
   }
 
 }
+
 @media (max-width: 500px) {
   .page-header{
     align-items: stretch;
   }
+
     .logo{
       position: relative;
       top: 8px;
@@ -92,7 +100,7 @@
 
 }
 @media (max-width: 400px) {
-    .menu-icon{
+    .menu-icon {
       width: 10%;
     }
 
